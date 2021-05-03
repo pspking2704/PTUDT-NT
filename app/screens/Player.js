@@ -150,7 +150,6 @@ const Player = () => {
             name='music-circle'
             size={300}
             color={context.isPlaying ? color.ACTIVE_BG : color.FONT_MEDIUM}
-            style={{transform:[{rotate: spin}]}}
           />
         </View>
         <View style={styles.audioPlayerContainer}>
